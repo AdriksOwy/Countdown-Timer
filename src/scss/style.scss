@@ -19,3 +19,10 @@ h1 {
   font: bold 4vw Consolas, sans-serif;
   margin-top: 20vh;
 }
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
