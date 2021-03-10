@@ -3,3 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: url(/img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
