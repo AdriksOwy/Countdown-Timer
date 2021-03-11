@@ -75,7 +75,8 @@ a {
   color: white;
 
   &:hover {
-    transition: 1s;
+    transition: 0.7s;
+    text-shadow: 0 0 3vh #0077d9;
     color: #0077d9;
   }
 }
