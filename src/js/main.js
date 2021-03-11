@@ -15,4 +15,13 @@ function countdown() {
   const hours = Math.floor(totalSeconds / 3600) % 24;
   const mins = Math.floor(totalSeconds / 60) % 60;
   const seconds = Math.floor(totalSeconds) % 60;
+
+  daysElement.innerHTML = days;
+  hoursElement.innerHTML = TimeChange(hours);
+  minsElement.innerHTML = TimeChange(mins);
+  secondsElement.innerHTML = TimeChange(seconds);
+}
+
+function TimeChange(time) {
+  return time < 10 `0${time}`;
 }
