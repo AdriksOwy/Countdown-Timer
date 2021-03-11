@@ -68,6 +68,12 @@ p {
   }
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 1300px) {
   h1 {
     font-size: 5vw;
