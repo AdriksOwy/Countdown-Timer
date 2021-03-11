@@ -25,5 +25,5 @@ function countdown() {
 countdown();
 
 function TimeChange(time) {
-  return time < 10 `0${time}`;
+  return time < 10 ? `0${time}` : time;
 }
