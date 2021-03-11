@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
   text-shadow: 0 0 2vh #000f4a;
   color: white;
 }
@@ -64,5 +65,27 @@ p {
 
   span {
     font: bold 1.5vw Consolas, sans-serif;
+  }
+}
+
+@media (max-width: 1300px) {
+  h1 {
+    font-size: 5vw;
+  }
+  
+  p {
+    font-size: 6vw;
+  }
+
+  .countdown {
+    span {
+      font-size: 3vw;
+    }
+  }
+
+  #footer {
+    span {
+      font-size: 3vw;
+    }
   }
 }
