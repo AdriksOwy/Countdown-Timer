@@ -4,6 +4,8 @@
   box-sizing: border-box;
   cursor: url('../../img/cursor.png'), default;
   user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 
 body {
