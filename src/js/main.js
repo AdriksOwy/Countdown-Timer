@@ -29,3 +29,7 @@ function TimeChange(time) {
 }
 
 setInterval(countdown, 1000);
+
+window.addEventListener('contextmenu', function(event) {
+  event.preventDefault();
+});
