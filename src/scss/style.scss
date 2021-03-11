@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  text-shadow: 0 0 2vh #000f4a;
+  text-shadow: 0 0 2vh #001938;
   color: white;
 }
 
@@ -80,6 +80,13 @@ a {
     text-decoration: underline;
     text-shadow: 0 0 3vh #0077d9;
     color: #0077d9;
+  }
+
+  &:active {
+    transition: 0.1s;
+    text-decoration: line-through;
+    text-shadow: 0 0 1vh white;
+    color: white;
   }
 }
 
