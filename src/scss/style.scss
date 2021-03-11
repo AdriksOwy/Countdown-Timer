@@ -69,13 +69,13 @@ p {
 }
 
 a {
-  transition: 0.2s;
+  transition: .2s;
   font-weight: bold;
   text-decoration: none;
   color: white;
 
   &:hover {
-    transition: 0.7s;
+    transition: .7s;
     text-shadow: 0 0 3vh #0077d9;
     color: #0077d9;
   }
@@ -83,22 +83,22 @@ a {
 
 @media (max-width: 1300px) {
   h1 {
-    font-size: 5vw;
+    font-size: 5vw !important;
   }
   
   p {
-    font-size: 6vw;
+    font-size: 6vw !important;
   }
 
   .countdown {
     span {
-      font-size: 3vw;
+      font-size: 3vw !important;
     }
   }
 
   #footer {
     span {
-      font-size: 3vw;
+      font-size: 3vw !important;
     }
   }
 }
