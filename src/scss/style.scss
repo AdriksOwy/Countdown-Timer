@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-shadow: 0 0 2vh #000f4a;
   color: white;
 }
 
@@ -24,7 +25,6 @@ body {
 h1 {
   font: bold 4vw Consolas, sans-serif;
   margin-top: 20vh;
-  text-shadow: 0 0 2vh #000f4a;
 }
 
 p {
@@ -36,7 +36,6 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 5vh;
-  text-shadow: 0 0 2vh #000f4a;
 }
 
 .countdown {
