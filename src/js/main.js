@@ -22,6 +22,8 @@ function countdown() {
   secondsElement.innerHTML = TimeChange(seconds);
 }
 
+countdown();
+
 function TimeChange(time) {
   return time < 10 `0${time}`;
 }
