@@ -33,3 +33,9 @@ setInterval(countdown, 1000);
 window.addEventListener('contextmenu', function(event) {
   event.preventDefault();
 });
+
+window.addEventListener('keydown', function(event) {
+  if (event.ctrlKey && event.keyCode === 85) {
+    event.preventDefault();
+  }
+});
