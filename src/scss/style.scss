@@ -17,7 +17,8 @@ body {
 
 h1 {
   font: bold 4vw Consolas, sans-serif;
-  margin-top: 25vh;
+  margin-top: 20vh;
+  text-shadow: 0 0 2vh #000f4a;
 }
 
 p {
@@ -29,6 +30,7 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 5vh;
+  text-shadow: 0 0 2vh #000f4a;
 }
 
 .countdown {
