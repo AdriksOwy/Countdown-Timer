@@ -32,6 +32,26 @@ body {
   src: url('../../fonts/consolas.ttf');
 }
 
+#loader {
+  position: absolute;
+  top: 40%;
+  width: 10vh; 
+  height: 10vh;
+  border: 2vh solid $fourth-color;
+  border-radius: 10%;
+  border-top: 2vh solid $first-color;
+  border-bottom: 2vh solid $first-color;
+  animation: load 1s linear infinite; 
+} 
+
+@keyframes load { 
+  100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      transform: rotate(360deg);
+  } 
+}
+
 h1 {
   font: bold 4vw Consolas, sans-serif;
   margin-top: 20vh;
